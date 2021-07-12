@@ -1,0 +1,86 @@
+.App {
+  height: 100vh;
+  background: rgb(111, 145, 130);
+ 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.suggestion{
+  background: aliceblue;
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px;
+  min-height: 0px;
+  max-height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.sugg{
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+ 
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+
+}
+h3{
+  
+  padding-top: 250px;
+  color: aliceblue;
+  padding-left: 200px;
+  
+  
+}
+.tag-container {
+  width: 60%;
+  display : flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  height:auto;
+  border-bottom: 5px solid black;
+ 
+  border-radius: 1px;
+  padding: 5px;
+  background: white;
+
+ 
+  
+  
+}
+.tag{
+  display: flex;
+  align-items: center;
+  padding:5px;
+  border:1px solid rgb(103, 50, 248);
+  height: 25px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin: 2px 5px 2px 0px;
+  background-color: rgb(206, 243, 255);
+  
+
+}
+.tag-container input{
+  border: none;
+  flex:1 ;
+  outline:none;
+  padding: 5;
+
+
+}
+.tag span{
+  margin-left:5px;
+  cursor: pointer;
+
+}
+
